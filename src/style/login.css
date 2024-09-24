@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-style: normal;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+}
+
+#body{
+    width: 100%;
+    height: 100lvh;
+    background-image: url(../images/login.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.other{
+    width: 100%;
+    height: auto;
+    background-color: rgba(125, 125, 125, 0.2);
+}
+
+label{
+    color: #353c41;
+}
+
+.form2{
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+#form{
+    border: 1px solid white;
+    width: 30%;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    height: 55%;
+    border-radius: 3%;
+    box-shadow: 5px 5px 10px 10px #00000086;
+}
+
+#email ,#userName{
+    display: block;
+    margin: 20px;
+    width: 90%;
+    color: #353c41;
+    background-color: rgb(255, 228, 196, 0);
+    border: 0.5px solid #353c41;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+#email ,#userName:focus{
+    color: #353c41;
+    background-color: rgb(255, 255, 255, 0);
+    border: 0.5px solid #353c41;
+}
+
+::placeholder{
+    color: #353c41;
+    opacity: 1;
+}
+
+#button{
+    display: block;
+    margin: 20px;
+    width: 90%;
+    color: white;
+    background-color: #353c41;
+    border: 0.5 solid #353c41;
+    padding: 8px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#button:hover{
+    color: white;
+    background-color: #282c2f;
+}
+
+#checkBox{
+    width: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+#h1{
+    color: #353c41;
+    text-align: center;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    margin-top: 30px;
+}
+
+#strong{
+    text-align: center;
+    color: #353c41;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    margin: 20px;
+}
